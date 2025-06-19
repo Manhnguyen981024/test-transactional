@@ -1,0 +1,13 @@
+body {
+    background: linear-gradient(to right, #a1c4fd, #c2e9fb);
+}
+
+.card {
+    border-radius: 1rem;
+    animation: fadeIn 1s ease-in;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
